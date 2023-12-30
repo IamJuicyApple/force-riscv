@@ -18,7 +18,6 @@
 import copy
 import os
 import sys
-
 from shared.ctrl_file_builder import CtrlFileBuilder
 from shared.instruction_file import InstructionFile
 from shared.instruction_file_grouping import (

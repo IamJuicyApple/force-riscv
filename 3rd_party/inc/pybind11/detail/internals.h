@@ -265,7 +265,6 @@ PYBIND11_NOINLINE inline internals &get_internals() {
         auto *&internals_ptr = *internals_pp;
         internals_ptr = new internals();
 #if defined(WITH_THREAD)
-        PyEval_InitThreads();
         PyThreadState *tstate = PyThreadState_Get();
         #if PY_VERSION_HEX >= 0x03070000
             internals_ptr->tstate = PyThread_tss_alloc();

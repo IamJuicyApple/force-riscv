@@ -17,7 +17,7 @@
 #define Force_ImageIO_H
 
 #include <map>
-
+#include <string>
 #include "Defines.h"
 
 namespace Force {
